@@ -1,0 +1,45 @@
+# ==============================
+# Python — simulateur
+# ==============================
+device_sim/venv/
+device_sim/__pycache__/
+device_sim/src/__pycache__/
+device_sim/tests/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# ==============================
+# Flutter — application
+# ==============================
+application/build/
+application/.dart_tool/
+application/.flutter-plugins
+application/.flutter-plugins-dependencies
+
+# Dossiers générés par plateforme (non nécessaires dans le repo)
+application/android/.gradle/
+application/android/local.properties
+application/ios/.symlinks/
+application/ios/Pods/
+application/ios/Flutter/App.framework
+application/ios/Flutter/Flutter.framework
+application/ios/Flutter/Flutter.podspec
+application/ios/Flutter/Generated.xcconfig
+application/ios/Flutter/app.flx
+application/ios/Flutter/app.zip
+application/ios/Flutter/flutter_assets/
+application/ios/ServiceDefinitions.json
+application/ios/Runner/GeneratedPluginRegistrant.*
+
+# ==============================
+# Général
+# ==============================
+.DS_Store
+Thumbs.db
+*.log
+.env
+
+# Mémoire Claude (outil de développement, pas du code source)
+.claude/
